@@ -7,6 +7,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
-public class KafkaEevent {
+public class KafkaEvent {
     private String cpf;
 }
