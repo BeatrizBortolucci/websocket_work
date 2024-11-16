@@ -19,7 +19,7 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
-    implementation 'org.apache.kafka:kafka-clients:3.9.0'
+    implementation 'org.apache.kafka:kafka-clients:3.9.0'  // Kafka client correto
     implementation 'org.springframework.boot:spring-boot-starter-websocket'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
@@ -28,10 +28,9 @@ dependencies {
     compileOnly 'org.projectlombok:lombok:1.18.24'
     annotationProcessor 'org.projectlombok:lombok:1.18.24'
     implementation 'org.postgresql:postgresql:42.5.0'
-    implementation 'org.springframework.kafka:spring-kafka:3.1.0' // Use a versão 3.1.x
+    implementation 'org.springframework.kafka:spring-kafka:3.1.0' // Certifique-se de que a versão é compatível
     implementation 'org.springframework.boot:spring-boot-starter:3.3.5'
 }
-
 
 
 
